@@ -63,18 +63,13 @@ public class Main {
         var hours = 8;
         System.out.println(hours);
         var employee = hoursOfOperation / hours;
-        System.out.print("Всего работников в компании - ");
-        System.out.print(employee);
-        System.out.println(" человеек");
+        System.out.println("Всего работников в компании - " + employee + " человеек");
         var allEmployee = employee + 94;
         System.out.println(allEmployee);
         var allHours = hoursOfOperation / allEmployee;
         System.out.println(allHours);
-        System.out.print("Если в компании работант ");
-        System.out.print(allEmployee);
-        System.out.print(" человека, то всего ");
-        System.out.print(allHours);
-        System.out.print(" часа работы может быть поделено можду сотрудниками");
+        System.out.println("Если в компании работант " + allEmployee + " человека, то всего " + allHours + " часа работы может быть поделено можду сотрудниками");
+
 
     }
 }
