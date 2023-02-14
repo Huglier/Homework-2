@@ -68,7 +68,7 @@ public class Main {
         System.out.println(allEmployee);
         var allHours = hoursOfOperation / allEmployee;
         System.out.println(allHours);
-        System.out.println("Если в компании работант " + allEmployee + " человека, то всего " + allHours + " часа работы может быть поделено можду сотрудниками");
+        System.out.println("Если в компании работает " + allEmployee + " человека, то всего " + allHours + " часа работы может быть поделено можду сотрудниками");
 
 
     }
